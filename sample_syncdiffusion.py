@@ -238,7 +238,7 @@ class SyncDiffusion(nn.Module):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--prompt', type=str, default='a photo of the dolomites')
+    parser.add_argument('--prompt', type=str, default='natural landscape in anime style illustration')
     parser.add_argument('--negative', type=str, default='')
     parser.add_argument('--sd_version', type=str, default='2.0', choices=['1.5', '2.0'], help="stable diffusion version")
     parser.add_argument('--H', type=int, default=512)
