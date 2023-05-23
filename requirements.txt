@@ -1,0 +1,4 @@
+transformers==4.28
+diffusers
+imageio
+lpips
