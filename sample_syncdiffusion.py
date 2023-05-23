@@ -1,6 +1,3 @@
-'''
-NOTE: This code is heavily based on the original code from MultiDiffusion (https://github.com/omerbt/MultiDiffusion).
-'''
 import os
 from os.path import join
 from datetime import datetime
