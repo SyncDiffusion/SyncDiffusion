@@ -1,4 +1,5 @@
 transformers==4.28
-diffusers
-imageio
+diffusers==0.15.1
+opencv-python==4.5.1.48
 lpips
+accelerate

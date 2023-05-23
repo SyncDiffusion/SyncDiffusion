@@ -9,10 +9,6 @@ from torch.autograd import grad
 import cv2
 import argparse
 
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-
 from utils import *
 import lpips
 from transformers import CLIPTextModel, CLIPTokenizer, logging

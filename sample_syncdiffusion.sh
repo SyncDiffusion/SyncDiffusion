@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=9 python sample_syncdiffusion.py \
+CUDA_VISIBLE_DEVICES=0 python sample_syncdiffusion.py \
 --num_samples 1 \
 --start 0 \
 --seed 100 \
@@ -10,7 +10,7 @@ CUDA_VISIBLE_DEVICES=9 python sample_syncdiffusion.py \
 --negative "" \
 --sd_version "2.0" \
 --H 512 \
---W 2048 \
+--W 3072 \
 --steps 50 \
 --save_dir "results" \
 --stride 16
